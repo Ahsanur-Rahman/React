@@ -1,0 +1,47 @@
+.carInsurance {
+  position: relative;
+}
+.amountFrame,
+.dateAndTitleFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dateAndTitleFrame {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.amountFrame {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-purple);
+  padding: var(--padding-3xs);
+  justify-content: center;
+  color: var(--color-white);
+}
+.mainFrame,
+.upperFrame {
+  align-self: stretch;
+  display: flex;
+}
+.mainFrame {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray);
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-3xs);
+}
+.upperFrame {
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslategray);
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,91 @@
+.title {
+  cursor: pointer;
+  position: relative;
+}
+.frameChild {
+  border: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  position: relative;
+  height: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.titleParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameWrapper,
+.instanceParent,
+.titleParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+  background-color: var(--color-mediumpurple);
+  flex-direction: column;
+  align-items: flex-start;
+}
+.instanceParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.title2 {
+  position: relative;
+}
+.frameGroup,
+.instanceWrapper {
+  align-self: stretch;
+  background-color: var(--color-mediumpurple);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  padding: var(--padding-3xs) var(--padding-8xs);
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.addExpense {
+  position: relative;
+  font-size: 14px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 96px;
+  flex-shrink: 0;
+}
+.addExpenseWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs);
+  background-color: #4b076a;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  position: relative;
+  background-color: var(--color-mediumpurple);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
